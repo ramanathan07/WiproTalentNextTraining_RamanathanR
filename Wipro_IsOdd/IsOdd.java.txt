@@ -1,0 +1,12 @@
+class UserMainCode
+{
+	public int isOdd(int input1) {
+		// Read only region end
+		if(input1%2==0)
+		return 1;
+		else if(input1%2!=0)
+		return 2;
+		else
+		throw new UnsupportedOperationException("isEven(int input1)");
+	}
+}
