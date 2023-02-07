@@ -1,0 +1,12 @@
+class UserMainCode
+{
+	public int lastDigitOf(int input1) {
+		// Read only region end
+		if(input1>=0)
+		return input1%10;
+		else if(input1<0)
+		return -1*(input1%10);
+		else
+		throw new UnsupportedOperationException("isEven(int input1)");
+	}
+}
